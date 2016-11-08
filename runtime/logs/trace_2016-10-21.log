@@ -1,0 +1,7 @@
+TRACE 2016-10-21 17:12:38# user-center/order-list[]
+TRACE 2016-10-21 17:13:26# order/pay{"id":"47"}
+TRACE 2016-10-21 17:13:29# user-center/order-list[]
+TRACE 2016-10-21 17:14:38# shop-cart/list[]
+TRACE 2016-10-21 17:14:42# mall/index[]
+TRACE 2016-10-21 17:14:47# shop-cart/add{"indiana_good_id":"9","num":"1"}
+TRACE 2016-10-21 17:14:50# shop-cart/list[]

@@ -1,0 +1,297 @@
+2016-08-28 10:35:11 [127.0.0.1][-][-][info][application] [seller][front\controllers\UserPassportController][actionGetCode][][0][success] time_used[1150]
+    in E:\app.xiaomaijr.com\api\controllers\ApiBaseController.php:91
+    in E:\app.xiaomaijr.com\front\controllers\UserPassportController.php:61
+2016-08-28 10:35:09 [127.0.0.1][-][-][info][application] $_POST = [
+    'account' => '18679401221'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5\";}'
+    'a2749_times' => '1'
+    'Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+    'Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yiyuan.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '19'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.yiyuan.com'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.yiyuan.com/user-passport/register-view'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5%22%3B%7D; a2749_times=1; Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351; Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Fingerprint Manager Pro\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\TortoiseSVN\\bin;C:\\Program Files (x86)\\AOMEI Backupper 2.1;C:\\Program Files\\MIT\\Kerberos\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at www.yiyuan.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'www.yiyuan.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'SERVER_ADMIN' => '409838862@qq.com'
+    'SCRIPT_FILENAME' => 'E:/app.xiaomaijr.com/front/web/index.php'
+    'REMOTE_PORT' => '51843'
+    'REDIRECT_URL' => 'http://www.yiyuan.com/user-passport/get-code'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user-passport/get-code'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/web/user-passport/get-code'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\web\\web\\user-passport\\get-code\\user-passport\\get-code'
+    'PHP_SELF' => '/index.php/web/user-passport/get-code'
+    'REQUEST_TIME_FLOAT' => 1472351709.227
+    'REQUEST_TIME' => 1472351709
+]
+2016-08-28 10:36:14 [127.0.0.1][-][-][info][application] [seller][front\controllers\UserPassportController][actionGetCode][][0][success] time_used[1193]
+    in E:\app.xiaomaijr.com\api\controllers\ApiBaseController.php:91
+    in E:\app.xiaomaijr.com\front\controllers\UserPassportController.php:61
+2016-08-28 10:36:12 [127.0.0.1][-][-][info][application] $_POST = [
+    'account' => '18679401221'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5\";}'
+    'a2749_times' => '1'
+    'Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+    'Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yiyuan.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '19'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.yiyuan.com'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.yiyuan.com/user-passport/register-view'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5%22%3B%7D; a2749_times=1; Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351; Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Fingerprint Manager Pro\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\TortoiseSVN\\bin;C:\\Program Files (x86)\\AOMEI Backupper 2.1;C:\\Program Files\\MIT\\Kerberos\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at www.yiyuan.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'www.yiyuan.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'SERVER_ADMIN' => '409838862@qq.com'
+    'SCRIPT_FILENAME' => 'E:/app.xiaomaijr.com/front/web/index.php'
+    'REMOTE_PORT' => '52430'
+    'REDIRECT_URL' => 'http://www.yiyuan.com/user-passport/get-code'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user-passport/get-code'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/web/user-passport/get-code'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\web\\web\\user-passport\\get-code\\user-passport\\get-code'
+    'PHP_SELF' => '/index.php/web/user-passport/get-code'
+    'REQUEST_TIME_FLOAT' => 1472351772.578
+    'REQUEST_TIME' => 1472351772
+]
+2016-08-28 10:36:24 [127.0.0.1][-][-][info][application] [seller][front\controllers\UserPassportController][actionRegister][][0][success] time_used[1164]
+    in E:\app.xiaomaijr.com\api\controllers\ApiBaseController.php:91
+    in E:\app.xiaomaijr.com\front\controllers\UserPassportController.php:100
+2016-08-28 10:36:22 [127.0.0.1][-][-][info][application] $_POST = [
+    'account' => '18679401221'
+    'auth_code' => '181491'
+    'password' => '123456'
+    'confirm_password' => '123456'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5\";}'
+    'a2749_times' => '1'
+    'Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+    'Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yiyuan.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '76'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.yiyuan.com'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.yiyuan.com/user-passport/register-view'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5%22%3B%7D; a2749_times=1; Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351; Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Fingerprint Manager Pro\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\TortoiseSVN\\bin;C:\\Program Files (x86)\\AOMEI Backupper 2.1;C:\\Program Files\\MIT\\Kerberos\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at www.yiyuan.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'www.yiyuan.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'SERVER_ADMIN' => '409838862@qq.com'
+    'SCRIPT_FILENAME' => 'E:/app.xiaomaijr.com/front/web/index.php'
+    'REMOTE_PORT' => '52542'
+    'REDIRECT_URL' => 'http://www.yiyuan.com/user-passport/register'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user-passport/register'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/web/user-passport/register'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\web\\web\\user-passport\\register\\user-passport\\register'
+    'PHP_SELF' => '/index.php/web/user-passport/register'
+    'REQUEST_TIME_FLOAT' => 1472351782.192
+    'REQUEST_TIME' => 1472351782
+]
+2016-08-28 10:39:12 [127.0.0.1][-][-][info][application] [seller][front\controllers\UserPassportController][actionLogin][][0][success] time_used[145]
+    in E:\app.xiaomaijr.com\api\controllers\ApiBaseController.php:91
+    in E:\app.xiaomaijr.com\front\controllers\UserPassportController.php:128
+2016-08-28 10:39:11 [127.0.0.1][-][-][info][application] $_POST = [
+    'account' => '18679404215'
+    'password' => '123456'
+]
+
+$_COOKIE = [
+    '_csrf' => '2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5\";}'
+    'a2749_times' => '1'
+    'Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+    'Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a' => '1472115351'
+]
+
+$_SESSION = [
+    'MOBILE' => '18679404215'
+    'USER_ID' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yiyuan.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.yiyuan.com'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.yiyuan.com/user-passport/login-view'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=2e880a6cce7ec48a7e6d0271e09d8c64018ab8c63d265435c6e7997a91a27ba8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YR95lmwjPIG2G5BTPXOZB9BkkwXZ_sS5%22%3B%7D; a2749_times=1; Hm_lvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351; Hm_lpvt_28b51bc33cffaa9efa2aea9ccdc72f7a=1472115351'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Fingerprint Manager Pro\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\TortoiseSVN\\bin;C:\\Program Files (x86)\\AOMEI Backupper 2.1;C:\\Program Files\\MIT\\Kerberos\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at www.yiyuan.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'www.yiyuan.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'SERVER_ADMIN' => '409838862@qq.com'
+    'SCRIPT_FILENAME' => 'E:/app.xiaomaijr.com/front/web/index.php'
+    'REMOTE_PORT' => '53960'
+    'REDIRECT_URL' => 'http://www.yiyuan.com/user-passport/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user-passport/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/web/user-passport/login'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\web\\web\\user-passport\\login\\user-passport\\login'
+    'PHP_SELF' => '/index.php/web/user-passport/login'
+    'REQUEST_TIME_FLOAT' => 1472351951.494
+    'REQUEST_TIME' => 1472351951
+]

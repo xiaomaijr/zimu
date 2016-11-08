@@ -1,0 +1,104 @@
+2016-10-30 19:00:31 [127.0.0.1][-][-][error][application] [seller][front\controllers\MemberController][actionDisplayOrder][][5000][更新订单状态失败] time_used[1092]
+    in E:\app.xiaomaijr.com\front\controllers\BaseController.php:98
+    in E:\app.xiaomaijr.com\front\controllers\MemberController.php:44
+2016-10-30 19:00:29 [127.0.0.1][-][-][info][application] $_POST = [
+    'order_id' => '63'
+    'image_urls' => '/static/smalllogo/14778251485815d27c76dab.jpg'
+    'title' => '终于中了'
+    'content' => '终于中了，好开心啊'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9se50a3j8ufucgt8rtlte00iu3'
+]
+
+$_SESSION = [
+    'MOBILE' => '18610628953'
+    'USER_ID' => 7
+    'CATEGORYS' => [
+        0 => [
+            'id' => '1'
+            'name' => '数码影音'
+            'parent' => '0'
+            'is_del' => '0'
+            'create_time' => '2147483647'
+            'update_time' => '0'
+        ]
+        1 => [
+            'id' => '2'
+            'name' => '其它商品'
+            'parent' => '0'
+            'is_del' => '0'
+            'create_time' => '2147483647'
+            'update_time' => '0'
+        ]
+        2 => [
+            'id' => '3'
+            'name' => '手机平板'
+            'parent' => '0'
+            'is_del' => '0'
+            'create_time' => '2147483647'
+            'update_time' => '0'
+        ]
+    ]
+    'CURURL' => '/member/display-order'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/Xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/Xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.yiyuan.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '123'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.yiyuan.com'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 SE 2.X MetaSr 1.0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.yiyuan.com/user-center/indianaed-list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=9se50a3j8ufucgt8rtlte00iu3'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Fingerprint Manager Pro\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\TortoiseSVN\\bin;C:\\Program Files (x86)\\AOMEI Backupper 2.1;C:\\Program Files\\MIT\\Kerberos\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at www.yiyuan.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'www.yiyuan.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/app.xiaomaijr.com/front/web/'
+    'SERVER_ADMIN' => '409838862@qq.com'
+    'SCRIPT_FILENAME' => 'E:/app.xiaomaijr.com/front/web/index.php'
+    'REMOTE_PORT' => '64780'
+    'REDIRECT_URL' => 'http://www.yiyuan.com/member/display-order'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/member/display-order'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/web/member/display-order'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\web\\web\\member\\display-order\\member\\display-order'
+    'PHP_SELF' => '/index.php/web/member/display-order'
+    'REQUEST_TIME_FLOAT' => 1477825229.121
+    'REQUEST_TIME' => 1477825229
+]

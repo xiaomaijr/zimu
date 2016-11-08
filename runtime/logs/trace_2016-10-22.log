@@ -1,0 +1,5 @@
+TRACE 2016-10-22 17:01:42# mall/product[]
+TRACE 2016-10-22 17:01:55# mall/product[]
+TRACE 2016-10-22 19:25:48# mall/product[]
+TRACE 2016-10-22 19:26:00# mall/index[]
+TRACE 2016-10-22 19:26:17# mall/product{"page_type":"new"}
